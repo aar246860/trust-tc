@@ -2,6 +2,17 @@
 
 The repository contains small CSV examples for reviewer and user testing.
 
+## Recommended first example
+
+Open the notebook quickstart:
+
+```text
+notebooks/trust_tc_interval_quickstart.ipynb
+```
+
+The notebook reads a public example CSV, runs TRUST-TC interval mode, displays
+selected output columns, and draws a simple interval plot.
+
 ## Generic fitted-result example
 
 Input:

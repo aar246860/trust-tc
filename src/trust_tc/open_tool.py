@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 
-CALIBRATION_VERSION = "0.1.0"
+CALIBRATION_VERSION = "0.1.1"
 CALIBRATION_DOMAIN = "full_3d"
 PACKAGED_CALIBRATION = "full3d_production_correction_factor_distribution.csv"
 

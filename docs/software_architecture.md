@@ -48,5 +48,5 @@ always records the calibration source, domain, and version.
 
 ## Scope
 
-Existing-result mode is stable for version `0.1.0`. Direct fitting from raw
+Existing-result mode is stable for version `0.1.1`. Direct fitting from raw
 temperature time series is not part of this public release.

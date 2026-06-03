@@ -13,6 +13,12 @@ python -m trust_tc interval --input examples/two_site_demo.csv --output outputs/
 python -m pytest tests/test_tool_interval_mode.py -q
 ```
 
+Optional notebook execution:
+
+```powershell
+python -m jupyter nbconvert --to notebook --execute notebooks/trust_tc_interval_quickstart.ipynb --output executed_quickstart.ipynb
+```
+
 The generated CSV files report corrected medians, P05--P95 intervals,
 reliability classes, design reference factors, warning flags, and calibration
 provenance. No output column is named `true_lambda`, `true_C`, `true_alpha`, or

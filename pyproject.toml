@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trust-tc"
-version = "0.1.0"
+version = "0.1.1"
 description = "Transformation-uncertainty intervals for thermal response test interpretation."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -25,6 +25,9 @@ classifiers = [
 [project.urls]
 Repository = "https://github.com/aar246860/trust-tc"
 Documentation = "https://github.com/aar246860/trust-tc#readme"
+
+[project.optional-dependencies]
+notebook = ["matplotlib", "jupyter"]
 
 [project.scripts]
 trust-tc = "trust_tc.__main__:main"

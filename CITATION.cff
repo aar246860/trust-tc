@@ -6,7 +6,7 @@ authors:
     given-names: Ying-Fan
   - family-names: Tsai
     given-names: Jui-Pin
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-06-03
 repository-code: "https://github.com/aar246860/trust-tc"
 license: MIT

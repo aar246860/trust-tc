@@ -9,3 +9,4 @@ build/
 dist/
 outputs/tool_demo/*.csv
 !outputs/tool_demo/.gitkeep
+notebooks/executed_*.ipynb

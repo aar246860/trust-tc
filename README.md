@@ -38,6 +38,19 @@ The command reads apparent TRT estimates and writes corrected medians,
 P05--P95 uncertainty intervals, reliability classes, design reference factors,
 warning flags, and calibration provenance.
 
+## Notebook Quickstart
+
+A step by step notebook example is available at
+`notebooks/trust_tc_interval_quickstart.ipynb`. It loads a public example CSV,
+runs interval mode, displays the output table, and draws a simple interval
+plot.
+
+Notebook use is optional. To install the extra packages for interactive use:
+
+```powershell
+python -m pip install -e .[notebook]
+```
+
 Use a custom calibration table when needed:
 
 ```powershell
@@ -74,7 +87,7 @@ Common aliases such as `late time ILS`, `exact ILS`, `cylindrical source`, and
 
 ## Scope
 
-The stable release is version `0.1.0`. The existing-result mode is stable and
+The stable release is version `0.1.1`. The existing-result mode is stable and
 is designed for users who already have apparent TRT estimates from common
 interpretation models. Direct fitting from raw temperature time series is not
 part of this public release.
@@ -91,11 +104,12 @@ table comes from prescribed-property full 3D numerical benchmark cases.
 - `docs/software_architecture.md`: package layers and calibration interface.
 - `docs/examples.md`: example files and expected outputs.
 - `docs/reproducibility.md`: commands used to reproduce the software examples.
+- `notebooks/trust_tc_interval_quickstart.ipynb`: interactive quickstart.
 
 ## Citation
 
 Please cite the software record in `CITATION.cff`. A Zenodo DOI can be minted
-from the GitHub `v0.1.0` release. The package is released under the MIT license.
+from the GitHub `v0.1.1` release. The package is released under the MIT license.
 
 ## Public Data Boundary
 
