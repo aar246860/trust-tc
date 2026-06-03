@@ -1,0 +1,7 @@
+site,depth_interval,interpretation_model,parameter,apparent_estimate,support_id,reliability_class
+Demo,whole,LT-ILS,lambda,2.60,whole,C
+Demo,whole,ILS,lambda,2.47,whole,C
+Demo,whole,ICS,lambda,2.30,whole,C
+Demo,whole,FLS,lambda,2.45,whole,C
+Demo,whole,ICS,C,2400000,whole,C
+Demo,whole,ICS,alpha,0.00000104,whole,C

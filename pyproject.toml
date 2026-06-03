@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trust-tc"
+version = "0.1.0"
+description = "Transformation-uncertainty intervals for thermal response test interpretation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ying-Fan Lin" }]
+dependencies = ["numpy", "pandas"]
+keywords = ["thermal response test", "geothermal", "uncertainty", "borehole heat exchanger"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Repository = "https://github.com/aar246860/trust-tc"
+Documentation = "https://github.com/aar246860/trust-tc#readme"
+
+[project.scripts]
+trust-tc = "trust_tc.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+trust_tc = ["calibration/*.csv"]

@@ -1,0 +1,7 @@
+site,depth_interval,interpretation_model,parameter,apparent_estimate,support_id,reliability_class
+NTU,NTU0409_Z001,LT-ILS,lambda,1.3356,shallow,A
+NTU,NTU0409_Z001,ILS,lambda,1.2840,shallow,A
+NTU,NTU0409_Z001,ICS,lambda,1.2100,shallow,A
+NTU,NTU0409_Z001,FLS,lambda,1.2600,shallow,A
+NTU,NTU0409_Z001,ICS,C,2400000,shallow,A
+NTU,NTU0409_Z001,ICS,alpha,0.00000050,shallow,A

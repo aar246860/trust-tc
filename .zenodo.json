@@ -1,0 +1,26 @@
+{
+  "title": "TRUST-TC: transformation uncertainty intervals for thermal response test interpretation",
+  "upload_type": "software",
+  "description": "TRUST-TC is a Python research tool that converts apparent thermal response test estimates into transformation-uncertainty intervals and geothermal design reference factors using full 3D numerical benchmark calibration tables.",
+  "creators": [
+    {
+      "name": "Lin, Ying-Fan",
+      "affiliation": "Chung Yuan Christian University"
+    },
+    {
+      "name": "Tsai, Jui-Pin",
+      "affiliation": "National Taiwan University"
+    }
+  ],
+  "license": "MIT",
+  "version": "0.1.0",
+  "keywords": [
+    "thermal response test",
+    "geothermal design",
+    "transformation uncertainty",
+    "borehole heat exchanger",
+    "thermal conductivity"
+  ],
+  "related_identifiers": [],
+  "access_right": "open"
+}

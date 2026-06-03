@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use TRUST-TC, please cite this software record."
+title: "TRUST-TC: transformation uncertainty intervals for thermal response test interpretation"
+authors:
+  - family-names: Lin
+    given-names: Ying-Fan
+  - family-names: Tsai
+    given-names: Jui-Pin
+version: 0.1.0
+date-released: 2026-06-03
+repository-code: "https://github.com/aar246860/trust-tc"
+license: MIT
+keywords:
+  - thermal response test
+  - geothermal design
+  - transformation uncertainty
+  - borehole heat exchanger
+abstract: "TRUST-TC converts apparent thermal response test estimates into uncertainty intervals and design reference factors using calibrated transformation uncertainty factors."

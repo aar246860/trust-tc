@@ -1,0 +1,7 @@
+site,depth_interval,interpretation_model,parameter,apparent_estimate,support_id,reliability_class
+Fukuoka,FUKUOKA_WHOLE,LT-ILS,lambda,2.595051831897016,whole,C
+Fukuoka,FUKUOKA_WHOLE,ILS,lambda,2.4694493023944815,whole,C
+Fukuoka,FUKUOKA_WHOLE,ICS,lambda,2.301483609914424,whole,C
+Fukuoka,FUKUOKA_WHOLE,FLS,lambda,2.4479796143889256,whole,C
+Fukuoka,FUKUOKA_WHOLE,ICS,C,800000.001039992,whole,C
+Fukuoka,FUKUOKA_WHOLE,ICS,alpha,0.000002876854508653148,whole,C
